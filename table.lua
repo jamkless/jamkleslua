@@ -1,4 +1,4 @@
-]]
+
 getgenv().jamkles = {
     camlock = {
         Enabled = true,

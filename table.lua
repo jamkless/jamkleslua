@@ -1,4 +1,3 @@
-
 getgenv().jamkles = {
     camlock = {
         Enabled = true,
@@ -11,7 +10,7 @@ getgenv().jamkles = {
     },
     TargetAim = {
         Enabled = true,
-        Prediction = 0.12588,
+        Prediction = 0.1485436,
         AimPart = "UpperTorso"
     },
     MouseTp = {
@@ -24,8 +23,8 @@ getgenv().jamkles = {
         HealthValue = 100
     },
     Autopred = {
-        Enabled = true,
-        Mode = "Complex" -- Simple,Advanced,Complex
+        Enabled = false,
+        Mode = "Advanced" -- Simple,Advanced,Complex
     },
     Cframe = {
         Enabled = false,
@@ -41,8 +40,8 @@ getgenv().jamkles = {
         InnerColor = Color3.fromRGB(0, 0, 0)
     },
     TriggerbotFov = {
-        Visible = true,
-        Transparency = 0,
+        Visible = false,
+        Transparency = 1,
         Size = 30,
         Filled = true,
         Thickness = 2.5,
@@ -80,7 +79,7 @@ getgenv().jamkles = {
         EasingDirection = Enum.EasingDirection.InOut
     },
     Notification = {
-        Time = 0,
+        Time = 3,
         OutlineColor = Color3.fromRGB(0, 0, 0)
     },
     Desync = {
@@ -92,7 +91,7 @@ getgenv().jamkles = {
             Z = 10
         },
         Angles = {
-            Mode = "Random", -- Normal, Random
+            Mode = "Normal", -- Normal, Random
             X = 360,
             Y = 360,
             Z = 360
@@ -102,9 +101,14 @@ getgenv().jamkles = {
             Method = "Strafe",
             Spoof = true,
             Strafe = {
-                Height = 15,
-                Distance = 15,
+                Height = 10,
+                Distance = 10,
                 Speed = 50
+            },
+            Visualizer = {
+                Enabled = true,
+                Color = Color3.fromRGB(0, 0, 0),
+                Material = "Brick"
             }
         }
     }
